@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Vector;
 
-public class Assignment_vector {
+public class Assignment_062_vector_iteration {
 
 public static void main(String[] args) 
 {

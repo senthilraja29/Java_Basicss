@@ -8,9 +8,9 @@ class parent
 	}
 }
 
-public class Polymorphism_method_overridng 
+public class Polymorphism_method_overridng extends parent
 {
-
+	@Override
 	void login()
 	{
 		System.out.println("Login by using Email");
@@ -21,8 +21,9 @@ public class Polymorphism_method_overridng
 		Polymorphism_method_overridng p1 = new Polymorphism_method_overridng();
 		
 		parent p2 = new parent();
-		p2.login();
+	//	p2.login();
 	//	p1.login();
+		new parent().login();
 		new Polymorphism_method_overridng().login();
 	}
 }
